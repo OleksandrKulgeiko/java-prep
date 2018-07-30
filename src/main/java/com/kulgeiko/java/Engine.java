@@ -1,0 +1,8 @@
+package com.kulgeiko.java;
+
+/**
+ * Created by akulgeiko on 7/16/2018.
+ */
+public class Engine {
+    public double capacity;
+}
