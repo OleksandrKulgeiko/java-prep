@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="300039fe-74ee-4ddc-bb15-5b09f7ee5ee1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/javax/jaxbexample/Book.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/javax/jaxbexample/Bookstore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/javax/jaxbexample/JaxbMain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -967,8 +964,16 @@
       <workItem from="1532593249384" duration="658000" />
       <workItem from="1532961728459" duration="75000" />
       <workItem from="1533126776617" duration="864000" />
-      <workItem from="1534503234991" duration="2147000" />
+      <workItem from="1534503234991" duration="2277000" />
     </task>
+    <task id="LOCAL-00001" summary="added JAXB">
+      <created>1534520429452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534520429452</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -980,7 +985,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202417000" />
+    <option name="totallyTimeSpent" value="202547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
@@ -1027,6 +1032,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added JAXB" />
+    <option name="LAST_COMMIT_MESSAGE" value="added JAXB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
