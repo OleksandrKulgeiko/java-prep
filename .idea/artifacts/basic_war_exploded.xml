@@ -54,6 +54,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.13.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.13.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.camel:camel-stream:2.15.2" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-csv:2.15.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-csv:1.1" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-bindy:2.15.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">
