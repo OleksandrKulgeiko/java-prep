@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="300039fe-74ee-4ddc-bb15-5b09f7ee5ee1" name="Default" comment="added Camel aggregation">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrderBindyTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/basic_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/basic_war_exploded.xml" />
+    <list default="true" id="300039fe-74ee-4ddc-bb15-5b09f7ee5ee1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/CsvAggregationStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrderBindyTestWithAggregation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic.iml" afterPath="$PROJECT_DIR$/basic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrder.java" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/CamelAggregation/AggregationExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelaggregation/AggregationExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/CamelAggregation/AggregationRoute.java" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelaggregation/AggregationRoute.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/CamelAggregation/MyAggregationStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelaggregation/MyAggregationStrategy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/CamelComponents/DirectExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelcomponents/DirectExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/CamelComponents/TimerExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelcomponents/TimerExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/FileCopierWithCamel.java" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/filecopy/FileCopierWithCamel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,14 +25,22 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PurchaseOrderBindyTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrderBindyTest.java">
+      <file leaf-file-name="PurchaseOrderBindyTestWithAggregation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrderBindyTestWithAggregation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state relative-caret-position="782">
+              <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,23 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PurchaseOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrder.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileCopierWithCamel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/FileCopierWithCamel.java">
+      <file leaf-file-name="CsvAggregationStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/CsvAggregationStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="136">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,6 +97,7 @@
       <find>hashCode</find>
       <find>clone</find>
       <find>tostring</find>
+      <find>Received</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,10 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/codingtasks/CodingTasks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/java8/streamapi/AnotherStreamExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/basics/ImmutbleStuff.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/java8/f_optional/OptionalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/java8/d_defaultmethod/TestColour.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/basics/diamondproblem/A.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/java8/d_defaultmethod/MyFavoriteColor.java" />
@@ -154,8 +161,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/CamelAggregation/AggregationExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/CamelAggregation/AggregationRoute.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrderBindyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/filecopy/FileCopierWithCamel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelaggregation/MyAggregationStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/CsvAggregationStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrderBindyTestWithAggregation.java" />
       </list>
     </option>
   </component>
@@ -228,9 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -401,8 +409,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kulgeiko" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apachecamel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="camelaggregation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,35 +475,15 @@
       <recent name="F:\0_Coding\My\src\main\java\com\kulgeiko\spring_prep" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PurchaseOrderBindyTest">
-    <configuration default="false" name="TimerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.kulgeiko.apachecamel.CamelComponents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.apachecamel.CamelComponents.TimerExample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="basic" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.PurchaseOrderBindyTestWithAggregation">
     <configuration default="false" name="DirectExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.kulgeiko.apachecamel.CamelComponents.*" />
+          <option name="PATTERN" value="com.kulgeiko.apachecamel.camelcomponents.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.apachecamel.CamelComponents.DirectExample" />
+      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.apachecamel.camelcomponents.DirectExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -494,11 +519,11 @@
     <configuration default="false" name="AggregationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.kulgeiko.apachecamel.CamelAggregation.*" />
+          <option name="PATTERN" value="com.kulgeiko.apachecamel.camelaggregation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.apachecamel.CamelAggregation.AggregationExample" />
+      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.apachecamel.camelaggregation.AggregationExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -519,6 +544,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.kulgeiko.apachecamel.csvtransformation.PurchaseOrderBindyTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="basic" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PurchaseOrderBindyTestWithAggregation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kulgeiko.apachecamel.csvtransformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.apachecamel.csvtransformation.PurchaseOrderBindyTestWithAggregation" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1015,19 +1060,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.mvc-basic" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TimerExample" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DirectExample" />
-      <item index="3" class="java.lang.String" itemvalue="Application.JaxbMain" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AggregationExample" />
-      <item index="5" class="java.lang.String" itemvalue="Application.PurchaseOrderBindyTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DirectExample" />
+      <item index="2" class="java.lang.String" itemvalue="Application.JaxbMain" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AggregationExample" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PurchaseOrderBindyTest" />
+      <item index="5" class="java.lang.String" itemvalue="Application.PurchaseOrderBindyTestWithAggregation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PurchaseOrderBindyTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AggregationExample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.JaxbMain" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DirectExample" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TimerExample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PurchaseOrderBindyTestWithAggregation" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PurchaseOrderBindyTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AggregationExample" />
+        <item index="3" class="java.lang.String" itemvalue="Application.JaxbMain" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DirectExample" />
       </list>
     </recent_temporary>
   </component>
@@ -1078,7 +1123,10 @@
       <workItem from="1535465514758" duration="339000" />
       <workItem from="1536049743316" duration="1078000" />
       <workItem from="1536077424559" duration="3021000" />
-      <workItem from="1536132466927" duration="166000" />
+      <workItem from="1536132466927" duration="6988000" />
+      <workItem from="1536149471287" duration="6535000" />
+      <workItem from="1536228934566" duration="3563000" />
+      <workItem from="1536677325307" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="added JAXB">
       <created>1534520429452</created>
@@ -1101,7 +1149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535465600963</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added Camel csv transformation">
+      <created>1536132673118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536132673118</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1113,7 +1168,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212993000" />
+    <option name="totallyTimeSpent" value="229946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="732" extended-state="0" />
@@ -1127,11 +1182,11 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2593801" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41435564" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1142,7 +1197,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2613293" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1164,7 +1219,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added JAXB" />
     <MESSAGE value="added Camel aggregation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Camel aggregation" />
+    <MESSAGE value="added Camel csv transformation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Camel csv transformation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1188,7 +1244,7 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1201,90 +1257,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="92" column="22" lean-forward="true" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/NavigableSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="85" column="17" lean-forward="false" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/jre/lib/rt.jar!/java/util/Iterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="1369" column="4" lean-forward="false" selection-start-line="1369" selection-start-column="4" selection-end-line="1369" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="95" column="7" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/executorsframework/TestExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/jre/lib/rt.jar!/java/util/EnumSet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/javacore/collections/enumcollections/EnumSetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/javacore/core/hashcodeequals/HashcodeEqualsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/javacore/core/hashcodeequals/Swimmer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/javacore/core/hashcodeequals/HashCodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/ReturnTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1404,7 +1376,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/CamelComponents/TimerExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelcomponents/TimerExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
@@ -1454,7 +1426,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/CamelComponents/DirectExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelcomponents/DirectExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
@@ -1489,74 +1461,154 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/orders/received/report-.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelaggregation/AggregationExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/orders/received/report-2.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/filecopy/FileCopierWithCamel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/model/ProcessorDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="1061" column="22" lean-forward="true" selection-start-line="1061" selection-start-column="22" selection-end-line="1061" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="50" column="10" lean-forward="false" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelaggregation/AggregationRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelaggregation/MyAggregationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/Exchange.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="169" column="12" lean-forward="false" selection-start-line="169" selection-start-column="12" selection-end-line="169" selection-end-column="12" />
+        <state relative-caret-position="195">
+          <caret line="167" column="12" lean-forward="false" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/CamelAggregation/MyAggregationStrategy.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/Predicate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/CamelAggregation/AggregationRoute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/CamelAggregation/AggregationExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/FileCopierWithCamel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="119">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="50" />
+        <state relative-caret-position="238">
+          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/orders/received/report-.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrderBindyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/processor/aggregate/AggregateProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/processor/RedeliveryErrorHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="252" column="0" lean-forward="false" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/management/InstrumentationProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/processor/ChoiceProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/model/AggregateDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="586" column="31" lean-forward="false" selection-start-line="586" selection-start-column="31" selection-end-line="586" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/orders/received/report-1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/CsvAggregationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrderBindyTestWithAggregation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

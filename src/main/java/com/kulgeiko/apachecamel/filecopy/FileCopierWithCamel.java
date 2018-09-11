@@ -1,4 +1,4 @@
-package com.kulgeiko.apachecamel;
+package com.kulgeiko.apachecamel.filecopy;
 
 /**
  * Created by akulgeiko on 7/25/2018.

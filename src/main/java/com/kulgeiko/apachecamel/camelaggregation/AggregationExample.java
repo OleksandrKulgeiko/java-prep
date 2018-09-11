@@ -1,8 +1,7 @@
-package com.kulgeiko.apachecamel.CamelAggregation;
+package com.kulgeiko.apachecamel.camelaggregation;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.ProducerTemplate;
-import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
 
 /**

@@ -21,6 +21,14 @@ public class PurchaseOrder {
     @DataField(pos = 3)
     private int amount;
 
+    public PurchaseOrder(String name, BigDecimal price, int amount){
+        this.name = name;
+        this.price = price;
+        this.amount = amount;
+    }
+
+    public PurchaseOrder(){}
+
     public String getName() {
         return name;
     }

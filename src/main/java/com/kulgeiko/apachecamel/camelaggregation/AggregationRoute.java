@@ -1,4 +1,4 @@
-package com.kulgeiko.apachecamel.CamelAggregation;
+package com.kulgeiko.apachecamel.camelaggregation;
 
 import org.apache.camel.builder.RouteBuilder;
 
