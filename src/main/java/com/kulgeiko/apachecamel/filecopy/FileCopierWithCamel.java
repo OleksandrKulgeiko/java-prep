@@ -16,11 +16,39 @@ public class FileCopierWithCamel {
         CamelContext context = new DefaultCamelContext();
 
         // add our route to the CamelContext
+
         context.addRoutes(new RouteBuilder() {
             public void configure() {
-                from("file:data/inbox?noop=true").to("file:data/outbox");
+                from("file:data\\inbox?noop=true").to("file:data/outbox");
             }
         });
+
+
+        // multi-casting
+        /*
+        String multicastDest1 = "file:data/outbox1multi";
+        String multicastDest2 = "file:data/outbox2multi";
+        context.addRoutes(new RouteBuilder() {
+            public void configure() {
+                from("file:data/inbox?noop=true").multicast()
+                        //.to("file:data/outbox1multi","file:data/outbox2multi");
+                        .to(multicastDest1,multicastDest2);
+            }
+        });
+        */
+
+        // recipient-List
+        /*
+        String recipients = "file:data/outbox1multi,file:data/outbox2multi";
+        context.addRoutes(new RouteBuilder() {
+            public void configure() {
+                from("file:data/inbox?noop=true")
+                        .setHeader("CamelFileName", constant("MyNewFile.txt"))
+                        .recipientList(constant(recipients),",");
+            }
+        });
+        */
+
 
         // start the route and let it do its work
         context.start();

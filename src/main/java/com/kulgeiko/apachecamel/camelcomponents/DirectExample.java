@@ -25,11 +25,10 @@ public class DirectExample {
 
                 // from direct component to system output
                 from("direct:directComponent").to("stream:out");
+
+
             }
         });
-
-
-
 
 
         // start the route and let it do its work

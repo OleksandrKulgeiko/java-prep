@@ -1,0 +1,6 @@
+<route>
+    <from uri="direct:a"/>
+    <recipientList parallelProcessing="true">
+        <header>myHeader</header>
+    </recipientList>
+</route>

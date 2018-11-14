@@ -20,6 +20,10 @@ public class StringsTest {
 
         String s5 = s3.intern();
         System.out.println(s1==s5);
+
+        String escape = "this is escape \\ \\rstring";
+
+
     }
 
 }
