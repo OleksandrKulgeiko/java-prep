@@ -1,4 +1,4 @@
-package com.kulgeiko.designpatterns.b_structural.b_proxy;
+package com.kulgeiko.designpatterns.b_structural.proxy;
 
 /**
  * Created by akulgeiko on 11/23/2017.
