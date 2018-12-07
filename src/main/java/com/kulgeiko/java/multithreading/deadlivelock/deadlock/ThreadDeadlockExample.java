@@ -6,18 +6,18 @@ package com.kulgeiko.java.multithreading.deadlivelock.deadlock;
 public class ThreadDeadlockExample {
     public static void main(String[] args) {
 
-        final String resource1 = "ratan jaiswal";
-        final String resource2 = "vimal jaiswal";
+        final String game1 = "Table Football";
+        final String game2 = "Table Tennis";
 
         // t1 tries to lock resource1 then resource2
         Thread t1 = new Thread() {
             public void run() {
-                synchronized (resource1) {
-                    System.out.println("Thread 1: locked resource 1");
+                synchronized (game1) {
+                    System.out.println("Thread 1: locked: " + game1);
 
                     try { Thread.sleep(100);} catch (Exception e) {}
 
-                    synchronized (resource2) {
+                    synchronized (game2) {
                         System.out.println("Thread 1: locked resource 2");
                     }
                 }
@@ -27,12 +27,12 @@ public class ThreadDeadlockExample {
         // t2 tries to lock resource2 then resource1
         Thread t2 = new Thread() {
             public void run() {
-                synchronized (resource2) {
-                    System.out.println("Thread 2: locked resource 2");
+                synchronized (game2) {
+                    System.out.println("Thread 2: locked: " + game2);
 
                     try { Thread.sleep(100);} catch (Exception e) {}
 
-                    synchronized (resource1) {
+                    synchronized (game1) {
                         System.out.println("Thread 2: locked resource 1");
                     }
                 }

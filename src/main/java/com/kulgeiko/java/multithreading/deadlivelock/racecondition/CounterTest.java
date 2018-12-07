@@ -9,7 +9,7 @@ public class CounterTest {
 
         for (int j=0; j<5; j++) new Thread(() -> counter.add()).start();
 
-        Thread.sleep(40000);
+        Thread.sleep(400);
         System.out.println(counter.count);
     }
 }

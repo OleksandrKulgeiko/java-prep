@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="300039fe-74ee-4ddc-bb15-5b09f7ee5ee1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/DroolsBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/DroolsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/model/Applicant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/model/SuggestedRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/service/ApplicantService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/helptodima/Part1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/javaregex/MainJavaRegex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/camelXmlExample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/rules/SuggestApplicant.drl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uml.vsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="300039fe-74ee-4ddc-bb15-5b09f7ee5ee1" name="Default" comment="added Camel csv transformation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/Uuid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/outbox/somefile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelcomponents/DirectExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelcomponents/DirectExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/filecopy/FileCopierWithCamel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/filecopy/FileCopierWithCamel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/objectclassmethods/StringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/objectclassmethods/StringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/deadlock/ThreadDeadlockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/deadlock/ThreadDeadlockExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/racecondition/CounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/racecondition/CounterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/starvation/StarvationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/starvation/StarvationExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,25 +75,28 @@
     <session id="145896537">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1112" />
+          <entry key="JAVA" value="1411" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="XML" value="5" />
         </counts>
@@ -116,14 +105,14 @@
         <counts>
           <entry key="camelXmlExample" value="5" />
           <entry key="drl" value="27" />
-          <entry key="java" value="1112" />
+          <entry key="java" value="1411" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="22" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JAVA" value="44" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -132,8 +121,8 @@
           <entry key="camelXmlExample" value="1" />
           <entry key="class" value="4" />
           <entry key="drl" value="3" />
-          <entry key="java" value="22" />
-          <entry key="txt" value="1" />
+          <entry key="java" value="44" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -141,79 +130,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/objectclassmethods/EqualsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/racecondition/CounterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+            <state relative-caret-position="187">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/filecopy/FileCopierWithCamel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/service/ApplicantService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/ReturnTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/strings/StringTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/Uuid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="92" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/DroolsBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-              <folding>
-                <element signature="method#getKieFileSystem#0;class#DroolsBeanFactory#0" />
-                <element signature="method#getKieRepository#0;class#DroolsBeanFactory#0" />
-                <element signature="method#getKieContainer#0;class#DroolsBeanFactory#0" />
-                <element signature="method#getKieSession#0;class#DroolsBeanFactory#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/rules/SuggestApplicant.drl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/model/Applicant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/model/Country.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,22 +160,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/DroolsMain.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/racecondition/Counter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/objectclassmethods/CloneTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="43" />
+            <state relative-caret-position="119">
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -288,12 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/javacore/collections/map/TreeMapDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/javacore/collections/enumcollections/EnumSetTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/javacore/core/hashcodeequals/HashCodeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/basics/ReturnTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/Kite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/Engine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/basics/objectclassmethods/CloneTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/basics/objectclassmethods/StringsTest.java" />
@@ -339,6 +259,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/DroolsMain.java" />
         <option value="$PROJECT_DIR$/src/main/resources/rules/SuggestApplicant.drl" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/strings/StringTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/uuid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/DateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/deadlock/ThreadDeadlockExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/starvation/StarvationExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/racecondition/CounterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/Uuid.java" />
       </list>
     </option>
   </component>
@@ -397,6 +323,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -404,135 +333,17 @@
               <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-prep" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="inbox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="outbox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kulgeiko" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kulgeiko" type="462c0819:PsiDirectoryNode" />
-              <item name="apachecamel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kulgeiko" type="462c0819:PsiDirectoryNode" />
-              <item name="drools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kulgeiko" type="462c0819:PsiDirectoryNode" />
-              <item name="drools" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kulgeiko" type="462c0819:PsiDirectoryNode" />
-              <item name="drools" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kulgeiko" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kulgeiko" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="rules" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Processor&#9;PSI&#9;JAVA://org.apache.camel.Processor&#10;Component&#9;PSI&#9;JAVA://org.apache.camel.Component&#10;Clon&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/lang/Cloneable.java&#10;O&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/lang/Object.java&#10;Object&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/lang/Object.java&#10;Clonea&#9;PSI&#9;JAVA://java.lang.Cloneable&#10;EnumSet&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/jre/lib/rt.jar!/java/util/EnumSet.class&#10;Segment&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap.Segment&#10;ConcurrentH&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;Iterator&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/Iterator.java&#10;Iterable&#9;PSI&#9;JAVA://java.lang.Iterable&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;LinkedHashSet&#9;PSI&#9;JAVA://java.util.LinkedHashSet&#10;HashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/HashMap.java&#10;TreeMAp&#9;PSI&#9;JAVA://java.util.TreeMap&#10;LinkedHash&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;Map&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/Map.java&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;Fork&#9;PSI&#9;JAVA://java.util.concurrent.ForkJoinPool&#10;SingleThreadExecutor&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newSingleThreadExecutor&#10;ExecutorSer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/concurrent/ExecutorService.java&#10;Future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;Runnable&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/lang/Runnable.java&#10;Callable&#9;PSI&#9;JAVA://java.util.concurrent.Callable&#10;Executor&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/concurrent/Executor.java&#10;ExecutorSe&#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;Producer&#9;PSI&#9;JAVA://java.awt.image.PixelGrabber#producer&#10;Predicate&#9;PSI&#9;JAVA://java.util.function.Predicate&#10;BiFunction&#9;PSI&#9;JAVA://java.util.function.BiFunction&#10;Function&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/jre/lib/rt.jar!/java/util/function/Function.class&#10;Optional&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/Optional.java&#10;Throwable&#9;PSI&#9;JAVA://java.lang.Throwable&#10;Autoclos&#9;PSI&#9;JAVA://java.lang.AutoCloseable&#10;Collection&#9;PSI&#9;JAVA://java.util.Collection&#10;Node&#9;PSI&#9;JAVA://java.util.LinkedList.Node&#10;Stream&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/stream/Stream.java&#10;Spliterator&#9;PSI&#9;JAVA://java.util.Spliterator&#10;Comparator&#9;PSI&#9;JAVA://java.util.Comparator&#10;Comparable&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542186820114" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544024113315" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../1_Sources_from_books/scala_prep" />
@@ -543,9 +354,6 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\0_My_coding\2_My_Github_projects\java-prep\src\main\resources\rules" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -555,6 +363,12 @@
       <recent name="F:\0_Coding\My\src\main\resources" />
       <recent name="F:\0_Coding\My\src\main\java\com\kulgeiko\spring_prep\ioc" />
       <recent name="F:\0_Coding\My\src\main\java\com\kulgeiko\spring_prep" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kulgeiko.java.basics" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\0_My_coding\2_My_Github_projects\java-prep\src\main\resources\rules" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -569,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringTest">
+  <component name="RunManager" selected="Application.Uuid">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -790,13 +604,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DroolsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.drools.DroolsMain" />
+    <configuration name="CounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.java.multithreading.deadlivelock.racecondition.CounterTest" />
       <module name="basic" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kulgeiko.drools.service.*" />
+          <option name="PATTERN" value="com.kulgeiko.java.multithreading.deadlivelock.racecondition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -804,13 +618,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.java.basics.objectclassmethods.EqualsTest" />
+    <configuration name="HostageRescueLivelock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.java.multithreading.deadlivelock.livelock.HostageRescueLivelock" />
       <module name="basic" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kulgeiko.java.basics.objectclassmethods.*" />
+          <option name="PATTERN" value="com.kulgeiko.java.multithreading.deadlivelock.livelock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -818,13 +632,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileCopierWithCamel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.apachecamel.filecopy.FileCopierWithCamel" />
+    <configuration name="StarvationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.java.multithreading.deadlivelock.starvation.StarvationExample" />
       <module name="basic" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kulgeiko.apachecamel.filecopy.*" />
+          <option name="PATTERN" value="com.kulgeiko.java.multithreading.deadlivelock.starvation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -832,13 +646,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainJavaRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.javaregex.MainJavaRegex" />
+    <configuration name="ThreadDeadlockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.java.multithreading.deadlivelock.deadlock.ThreadDeadlockExample" />
       <module name="basic" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kulgeiko.javaregex.*" />
+          <option name="PATTERN" value="com.kulgeiko.java.multithreading.deadlivelock.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -846,13 +660,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.java.basics.strings.StringTest" />
+    <configuration name="Uuid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kulgeiko.java.basics.Uuid" />
       <module name="basic" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kulgeiko.java.basics.strings.*" />
+          <option name="PATTERN" value="com.kulgeiko.java.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -993,19 +807,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DroolsMain" />
-      <item itemvalue="Application.MainJavaRegex" />
-      <item itemvalue="Application.FileCopierWithCamel" />
-      <item itemvalue="Application.EqualsTest" />
-      <item itemvalue="Application.StringTest" />
+      <item itemvalue="Application.ThreadDeadlockExample" />
+      <item itemvalue="Application.HostageRescueLivelock" />
+      <item itemvalue="Application.StarvationExample" />
+      <item itemvalue="Application.CounterTest" />
+      <item itemvalue="Application.Uuid" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.DroolsMain" />
-        <item itemvalue="Application.EqualsTest" />
-        <item itemvalue="Application.FileCopierWithCamel" />
-        <item itemvalue="Application.MainJavaRegex" />
+        <item itemvalue="Application.Uuid" />
+        <item itemvalue="Application.CounterTest" />
+        <item itemvalue="Application.StarvationExample" />
+        <item itemvalue="Application.HostageRescueLivelock" />
+        <item itemvalue="Application.ThreadDeadlockExample" />
       </list>
     </recent_temporary>
   </component>
@@ -1086,7 +900,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536132673118</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added Camel csv transformation">
+      <created>1542187010840</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542187010840</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1102,7 +923,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
@@ -1110,18 +930,18 @@
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Nl-Palette" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.24508321" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.27155825" />
       <window_info id="Structure" order="7" weight="0.25" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.29016393" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.019575857" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3262295" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.30668843" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.34615386" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.34590164" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32626426" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.23114754" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.42786884" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -1173,6 +993,18 @@
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/nio/file/Files.java</url>
+          <line>725</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/Uuid.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1186,67 +1018,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bookstore-jaxb.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/javax/jaxbexample/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/javax/jaxbexample/JaxbMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/builder/RouteBuilder.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/impl/DefaultCamelContext.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/CamelContext.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/ProducerTemplate.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/processor/aggregate/AggregationStrategy.class" />
-    <entry file="file://$PROJECT_DIR$/target/orders/received/report-.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelaggregation/AggregationExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/orders/received/report-2.csv" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/Message.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelaggregation/AggregationRoute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelaggregation/MyAggregationStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/Exchange.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/Predicate.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/csvtransformation/PurchaseOrderBindyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/processor/aggregate/AggregateProcessor.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/processor/RedeliveryErrorHandler.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/management/InstrumentationProcessor.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar!/org/apache/camel/processor/ChoiceProcessor.class" />
@@ -1268,13 +1039,6 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/function/Function.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/util/Comparator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelcomponents/DirectExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/helptodima/Part1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1354,16 +1118,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/filecopy/FileCopierWithCamel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/TestStaticBlockVsBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/service/ApplicantService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/strings/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelcomponents/DirectExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/DateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2635">
+          <caret line="195" column="11" selection-start-line="195" selection-start-column="11" selection-end-line="195" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/DroolsBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="method#getKieFileSystem#0;class#DroolsBeanFactory#0" />
-            <element signature="method#getKieRepository#0;class#DroolsBeanFactory#0" />
-            <element signature="method#getKieContainer#0;class#DroolsBeanFactory#0" />
-            <element signature="method#getKieSession#0;class#DroolsBeanFactory#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1385,9 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1395,9 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1408,24 +1209,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/drools/service/ApplicantService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/camelcomponents/TimerExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="140" column="28" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/deadlock/ThreadDeadlockExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/livelock/Criminal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/livelock/HostageRescueLivelock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/starvation/StarvationExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thread-0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/starvation/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/java8/d_defaultmethod/TestColour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/java8/d_defaultmethod/MyFavoriteColor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/apachecamel/filecopy/FileCopierWithCamel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/racecondition/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="61" />
+        <state relative-caret-position="119">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/strings/StringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/multithreading/deadlivelock/racecondition/CounterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="92" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/ReturnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="721" column="23" selection-start-line="721" selection-start-column="23" selection-end-line="721" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulgeiko/java/basics/Uuid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
