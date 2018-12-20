@@ -1,4 +1,4 @@
-package com.kulgeiko.java.java8.a_functionalinterface;
+package com.kulgeiko.java.java8.a_functionalinterface.own;
 
 import java.util.function.Function;
 

@@ -16,6 +16,7 @@ public class ProxyImage implements Image{
         if(realImage == null){
             realImage = new RealImage(fileName);
         }
+        System.out.println("THIS IS FUNCTIONALITY ADDED BY PROXY");
         realImage.display();
     }
 }

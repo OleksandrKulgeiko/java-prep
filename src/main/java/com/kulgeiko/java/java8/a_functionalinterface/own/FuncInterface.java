@@ -1,4 +1,4 @@
-package com.kulgeiko.java.java8.a_functionalinterface;
+package com.kulgeiko.java.java8.a_functionalinterface.own;
 
 /**
  * Created by akulgeiko on 6/5/2018.

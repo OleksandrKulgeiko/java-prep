@@ -6,13 +6,22 @@ package com.kulgeiko.designpatterns.b_structural.proxy;
 public class ProxyPatternDemo {
 
     public static void main(String[] args) {
-        Image image = new ProxyImage("test_10mb.jpg");
-
+        Image proxyImage = new ProxyImage("test_10mb.jpg");
         //image will be loaded from disk
-        image.display();
+        proxyImage.display();
         System.out.println("");
-
         //image will not be loaded from disk
-        image.display();
+        proxyImage.display();
+
+        System.out.println("---------------");
+
+        Image realImage = new RealImage("test_100mb.jpg");
+        //image will be loaded from disk
+        realImage.display();
+        System.out.println("");
+        //image will not be loaded from disk
+        realImage.display();
+
+
     }
 }

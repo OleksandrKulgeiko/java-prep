@@ -34,8 +34,12 @@ public class PurchaseOrderBindyTest {
         order2.setPrice(new BigDecimal("60.98"));
         order2.setName("Scala");
 
+        PurchaseOrder order3 = new PurchaseOrder();
+
+        // Array of orders
         List orders = new ArrayList<PurchaseOrder>();
         orders.add(order1);
+        orders.add(order3);
         orders.add(order2);
 
         // Push to endpoint

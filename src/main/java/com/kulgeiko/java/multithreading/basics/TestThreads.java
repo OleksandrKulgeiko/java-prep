@@ -12,11 +12,11 @@ public class TestThreads {
         t1.start();
 
         // --------------------------- Subclass
-        ThreadClass threadClass = new ThreadClass();
+        Thread t2 = new ThreadClass();
 
         t1.start();
         t1.join();
-        threadClass.start();
+        t2.start();
 
     }
 
