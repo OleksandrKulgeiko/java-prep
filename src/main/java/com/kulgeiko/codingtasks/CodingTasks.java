@@ -18,7 +18,7 @@ public class CodingTasks {
         int[] arr1 = {1, -1, 1, -1, -2};
         System.out.println("Number of occurrence: " + numberOfOccurrence(-1, arr1));
 
-        int[] arr2 = {1, 8, 3, 8, 2};
+        int[] arr2 = {1, 8, 3, 8, 2, 2};
         System.out.println("Duplicate number: " + findDuplicateNumber(arr2));
 
         int[] arrFirst = {400};

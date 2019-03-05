@@ -6,9 +6,7 @@ package com.kulgeiko.java.javacore.tricky.onotion;
 public class Onotion {
 
     public static void main(String... args){
-
         int[] a = {1,2,3,4,5,6,7,8,9,10};
-
         // O(1)
         printFirstItem(a);
         // O(n)
@@ -22,14 +20,14 @@ public class Onotion {
         System.out.println(items[0]);
     }
 
-    // It runs in O(n) (or "constant time") relative to input
+    // It runs in O(n) relative to input
     public static void printAllItems(int[] items) {
         for (int item : items) {
             System.out.println(item);
         }
     }
 
-    // It runs in O(n^2) (or "constant time") relative to input
+    // It runs in O(n^2) relative to input
     public static void printAllPossibleOrderedPairs(int[] items) {
         for (int firstItem : items) {
             for (int secondItem : items) {
